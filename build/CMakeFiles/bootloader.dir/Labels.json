@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

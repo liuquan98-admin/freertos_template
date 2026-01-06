@@ -1,0 +1,2 @@
+source /home/liuquan/project/esp32/freertos_template/build/bootloader/gdbinit/symbols
+source /home/liuquan/project/esp32/freertos_template/build/bootloader/gdbinit/connect

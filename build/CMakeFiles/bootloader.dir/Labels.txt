@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/liuquan/project/esp32/freertos_template/build/CMakeFiles/bootloader
+/home/liuquan/project/esp32/freertos_template/build/CMakeFiles/bootloader.rule
+/home/liuquan/project/esp32/freertos_template/build/CMakeFiles/bootloader-complete.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/liuquan/project/esp32/freertos_template/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
