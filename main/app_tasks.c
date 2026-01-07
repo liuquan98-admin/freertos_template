@@ -18,5 +18,8 @@ extern QueueHandle_t g_data_queue;
 
 /* 任务创建函数 */
 void app_tasks_create(void);
+/**
+ * #void
+ */
 
 #endif
