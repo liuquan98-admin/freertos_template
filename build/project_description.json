@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "freertos_template",
-    "project_version":    "bebb7b7-dirty",
+    "project_version":    "3ded35a-dirty",
     "project_path":       "/home/liuquan/project/esp32/freertos_template",
     "idf_path":           "/esp/esp-idf",
     "build_dir":          "/home/liuquan/project/esp32/freertos_template/build",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/liuquan/project/esp32/freertos_template/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/liuquan/project/esp32/freertos_template/main/freertos_template.c", "/home/liuquan/project/esp32/freertos_template/main/app_tasks.c" ],
+            "sources": [ "/home/liuquan/project/esp32/freertos_template/main/led.c", "/home/liuquan/project/esp32/freertos_template/main/freertos_template.c", "/home/liuquan/project/esp32/freertos_template/main/app_tasks.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
