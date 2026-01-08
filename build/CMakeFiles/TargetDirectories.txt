@@ -824,6 +824,13 @@
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/wifi_provisioning/CMakeFiles/rebuild_cache.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/wifi_provisioning/CMakeFiles/edit_cache.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/install/strip.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/install.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/list_install_components.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/rebuild_cache.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/edit_cache.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/install/local.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/__idf_led.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/CMakeFiles/install/strip.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/CMakeFiles/install/local.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/CMakeFiles/install.dir
