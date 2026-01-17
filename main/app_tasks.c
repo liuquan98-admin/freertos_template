@@ -17,13 +17,13 @@ static void led_blink_task(void *pvParameters)
     {
         // 方式1：手动控制亮灭（直观）
         led_on();
-        vTaskDelay(pdMS_TO_TICKS(100)); // 延时1秒（释放CPU给其他任务）
+        vTaskDelay(pdMS_TO_TICKS(300)); // 延时1秒（释放CPU给其他任务）
         led_off();
-        vTaskDelay(pdMS_TO_TICKS(100)); // 延时1秒
+        vTaskDelay(pdMS_TO_TICKS(300)); // 延时1秒
 
         // 方式2：翻转状态（代码更简洁，效果和方式1一致）
         // led_toggle();
-        vTaskDelay(pdMS_TO_TICKS(1000)); // 1秒翻转一次，即1秒亮1秒灭
+        // vTaskDelay(pdMS_TO_TICKS(1000)); // 1秒翻转一次，即1秒亮1秒灭
     }
 
     // 3. 任务删除（无限循环不会执行到这里，仅规范写法）

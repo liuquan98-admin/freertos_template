@@ -82,4 +82,5 @@
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/spiffs/libspiffs.a
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/led/libled.a
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/libledc.a
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/libmain.a

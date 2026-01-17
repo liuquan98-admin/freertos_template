@@ -27,22 +27,23 @@ void led_init(void)
     // 4. 初始状态：熄灭LED
     led_off();
 
-    ESP_LOGI(LED_TAG, "LED初始化完成，控制引脚：GPIO%d", LED_GPIO_PIN);
+    ESP_LOGI(LED_TAG, "LED初始化成功完成，控制引脚：GPIO%d", LED_GPIO_PIN);
 }
 
 // 点亮LED（低电平点亮，若硬件是高电平则改为1）
 void led_on(void)
 {
     gpio_set_level(LED_GPIO_PIN, 0);
-
-    ESP_LOGD(LED_TAG, "LED已点亮（GPIO%d电平：1）", LED_GPIO_PIN);
+    // printf("LED ON\n");
+    ESP_LOGI(LED_TAG, "SUCCESS点亮LED（GPIO%d电平：1）", LED_GPIO_PIN);
 }
 
 // 熄灭LED（高电平熄灭，若硬件是低电平则改为0）
 void led_off(void)
 {
     gpio_set_level(LED_GPIO_PIN, 1);
-    ESP_LOGD(LED_TAG, "熄灭LED（GPIO%d电平：1）", LED_GPIO_PIN);
+    // printf("LED OFF\n");
+    ESP_LOGI(LED_TAG, "SUCCESS熄灭LED（GPIO%d电平：1）", LED_GPIO_PIN);
 }
 
 // 翻转LED状态（用于闪烁更简洁）

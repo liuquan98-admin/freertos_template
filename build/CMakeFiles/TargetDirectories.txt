@@ -831,6 +831,13 @@
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/edit_cache.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/install/local.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/led/CMakeFiles/__idf_led.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/install/local.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/install.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/list_install_components.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/rebuild_cache.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/edit_cache.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/install/strip.dir
+/home/liuquan/project/esp32/freertos_template/build/esp-idf/ledc/CMakeFiles/__idf_ledc.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/CMakeFiles/install/strip.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/CMakeFiles/install/local.dir
 /home/liuquan/project/esp32/freertos_template/build/esp-idf/main/CMakeFiles/install.dir
