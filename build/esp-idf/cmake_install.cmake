@@ -554,6 +554,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/liuquan/project/esp32/freertos_template/build/esp-idf/motor/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/liuquan/project/esp32/freertos_template/build/esp-idf/main/cmake_install.cmake")
 endif()
 

@@ -83,4 +83,5 @@ $<TARGET_FILE:__idf_spiffs>
 $<TARGET_FILE:__idf_wifi_provisioning>
 $<TARGET_FILE:__idf_led>
 $<TARGET_FILE:__idf_ledc>
+$<TARGET_FILE:__idf_motor>
 $<TARGET_FILE:__idf_main>

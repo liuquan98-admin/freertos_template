@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "driver/ledc.h"
 #include "esp_err.h"
+#include "esp_log.h"
+#include "freertos/FreeRTOS.h"
 #define LEDC_TIMER LEDC_TIMER_0
 #define LEDC_MODE LEDC_LOW_SPEED_MODE
 #define LEDC_OUTPUT_IO (5) // Define the output GPIO
@@ -10,6 +12,7 @@
 #define LEDC_DUTY (4096)                // Set duty to 50%. (2 ** 13) * 50% = 4096
 // 频率与周期互为倒数关系
 #define LEDC_FREQUENCY (2000) // Frequency in Hertz. Set frequency at 4 kHz
+static const char *LEDC_TAG = "COMM_MAIN";
 void example_ledc_init(void)
 {
     // Prepare and then apply the LEDC PWM timer configuration
@@ -33,4 +36,31 @@ void example_ledc_init(void)
         .duty = 0, // Set duty to 0%
         .hpoint = 0};
     ESP_ERROR_CHECK(ledc_channel_config(&ledc_channel));
+    ESP_LOGI(LEDC_TAG, "1.example_ledc_init======函数完成");
+}
+
+void example_create_ledc(void)
+{
+
+    // ESP_LOGI(LEDC_TAG, "2.example_create_led======函数完成");
+
+    while (1)
+    {
+
+        // 最暗变为最亮
+        for (int i = 0; i < 8192; i += 20)
+        {
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, i);
+            ledc_update_duty(LEDC_MODE, LEDC_CHANNEL);
+            // vTaskDelay(pdTICKS_TO_MS(100));
+            vTaskDelay(pdMS_TO_TICKS(20));
+        }
+        // 最亮变为最暗
+        for (int y = 8192; y > 0; y -= 20)
+        {
+            ledc_set_duty(LEDC_MODE, LEDC_CHANNEL, y);
+            ledc_update_duty(LEDC_MODE, LEDC_CHANNEL);
+            vTaskDelay(pdMS_TO_TICKS(20));
+        }
+    }
 }
